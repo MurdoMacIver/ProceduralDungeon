@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>be9b933c-5ba4-4b75-8a03-402244ddb78b</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>558da2db-1cd8-4033-9858-2a5e9328268c</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{40238b9b-2d65-45a3-9dff-1217399e25f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{87f4acdb-8786-4ef7-8e4a-3eef1607d089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{634eb314-e35e-4091-98f8-475d3f69f8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input">
+      <UniqueIdentifier>{1a6316bb-ea7a-4cc7-b702-8687eff8a4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration">
+      <UniqueIdentifier>{930d67db-4fb8-485f-97a2-76dfd7b19be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Grid">
+      <UniqueIdentifier>{f84687cb-96fe-49ce-9c7d-431d72cfed3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Main">
+      <UniqueIdentifier>{82d245ac-310e-4d4c-9775-8365f42a6a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Camera">
+      <UniqueIdentifier>{41a7ec5d-60c8-4325-bc29-36577f286db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Light">
+      <UniqueIdentifier>{9fe236d6-ceda-447b-a1f0-1e4fc43e86b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader">
+      <UniqueIdentifier>{9f1f0e8f-d8e2-42b9-9237-6a5b71d319ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Model">
+      <UniqueIdentifier>{7b3058ec-bd79-4773-9b94-56bb6e9faf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{48a49ee1-09ac-4d50-9bb6-5b5741280702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\PixelShaders">
+      <UniqueIdentifier>{d407b05a-f50c-4f13-a9c3-3645bedc2405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\VertexShaders">
+      <UniqueIdentifier>{909a8502-909b-443b-9f79-8f86f9b5586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration\Dungeon">
+      <UniqueIdentifier>{a7e96dff-63cb-4810-a1e1-5b22dd38d860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration\Dungeon\AStar">
+      <UniqueIdentifier>{7538d526-3e8f-4d16-9c7e-cc9ee06608bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration\Dungeon\CellGeneration">
+      <UniqueIdentifier>{ab99447b-1b73-479d-b5a9-7483a0e744ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration\PerlinNoise">
+      <UniqueIdentifier>{ad4d5def-fe31-47cb-94c0-5e4633e79a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProceduralGeneration\MidPointDisplacement">
+      <UniqueIdentifier>{4e809ce2-f2ba-46b9-8122-42b0ca0935e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h" />
+    <ClInclude Include="imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>ProceduralGeneration\Dungeon\CellGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="CellPoint.h">
+      <Filter>ProceduralGeneration\Dungeon\CellGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Game\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>ProceduralGeneration\Dungeon\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Game\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Rendering\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Rendering\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Rendering\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>ProceduralGeneration\MidPointDisplacement</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>ProceduralGeneration\PerlinNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinTerrain.h">
+      <Filter>ProceduralGeneration\PerlinNoise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>ProceduralGeneration\Dungeon\CellGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="CellPoint.cpp">
+      <Filter>ProceduralGeneration\Dungeon\CellGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Game\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>ProceduralGeneration\Dungeon\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Game\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Rendering\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Rendering\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Rendering\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Rendering\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>ProceduralGeneration\MidPointDisplacement</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinTerrain.cpp">
+      <Filter>ProceduralGeneration\PerlinNoise</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SegoeUI_18.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="colour_ps.hlsl">
+      <Filter>Assets\Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="light_ps.hlsl">
+      <Filter>Assets\Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="light_ps_skydome.hlsl">
+      <Filter>Assets\Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="colour_vs.hlsl">
+      <Filter>Assets\Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="light_vs.hlsl">
+      <Filter>Assets\Shaders\VertexShaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
